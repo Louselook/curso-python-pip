@@ -43,10 +43,7 @@ deactivate
 ```
 
 
-
-///////
-
-docker
+# docker
 
 para construir el contenedor
 
@@ -59,6 +56,11 @@ luego para lanzarlo
 docker-compose up -d
 ```
 
+para deter el 
+```sh
+docker-compose stop
+```
+
 para ver el estado  usamos
 ```sh
 docker-compose ps
@@ -68,3 +70,4 @@ para ingresar a el ambiente para empesar a desarrollar en el usamos
 ```sh
 docker-compose exec app-csv bash
 ```
+
