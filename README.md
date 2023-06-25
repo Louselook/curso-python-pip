@@ -42,3 +42,29 @@ para desactivar
 deactivate
 ```
 
+
+
+///////
+
+docker
+
+para construir el contenedor
+
+```sh
+docker-compose build
+```
+
+luego para lanzarlo
+```sh
+docker-compose up -d
+```
+
+para ver el estado  usamos
+```sh
+docker-compose ps
+```
+
+para ingresar a el ambiente para empesar a desarrollar en el usamos 
+```sh
+docker-compose exec app-csv bash
+```
